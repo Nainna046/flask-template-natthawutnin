@@ -15,7 +15,6 @@ def about():
     mobile = '0653238104'
     age = 21
     return render_template('about.html',
-
                             name=name,
                             email=email,
                             mobile=mobile,
