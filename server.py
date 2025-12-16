@@ -33,3 +33,10 @@ def favorite_spots():
     spots = ['Football', 'Basketball', 'volleyball']
     return render_template('favorite_spots.html',
                             spots=spots)
+
+@app.route('/favorite/movies')
+def favorite_movies():      
+    title = 'Favorite Movies'
+    movies = ['avenger', 'fast and furious', 'transformers', 'john wick', 'spider-man']
+    return render_template('favorite_movies.html',  
+                            movies=movies)  
